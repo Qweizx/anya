@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Для Ани ❤️</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- Основной экран -->
+    <canvas id="canvas"></canvas>
+
+    <!-- Поцелуйчики и фото на старте -->
+    <div id="kisses"></div>
+    <img id="photo" src="photo.jpg" alt="">
+
+    <!-- Затемнение во время переходов -->
+    <div id="flash"></div>
+
+    <!-- Центральный интерфейс -->
+    <main class="content">
+
+        <div id="hint">
+            нажми на сердце ❤️
+        </div>
+
+        <div id="name">
+            <span>АНЯ</span>
+            <span class="heart-symbol">♥</span>
+        </div>
+
+        <div id="message">
+            Я тебя люблю зая ❤️,<br>
+        </div>
+
+        <button id="replay">
+            ↻ ещё раз
+        </button>
+
+    </main>
+
+    <!-- Музыка -->
+    <audio
+        id="music"
+        src="music.mp3"
+        loop
+    ></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
